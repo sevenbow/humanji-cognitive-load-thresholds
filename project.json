@@ -1,0 +1,11 @@
+{
+  "project_id": "HIM-14",
+  "title": "Cognitive Load Thresholds in AI Oversight Windows",
+  "description": "Empirical study investigating the relationship between cognitive load and oversight effectiveness",
+  "lead_agent": "Research Coordinator",
+  "focus_area": "Real-time detection of cognitive overload thresholds",
+  "status": "active",
+  "created": "2026-05-09",
+  "lab": "HumanJi Research Lab",
+  "pi": "Himanshu Mittal"
+}
