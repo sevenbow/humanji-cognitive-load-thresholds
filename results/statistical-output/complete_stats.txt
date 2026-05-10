@@ -1,0 +1,33 @@
+STATISTICAL ANALYSIS REPORT: HIM-14 Cognitive Load Thresholds
+============================================================
+N = 250 participants across 5 conditions
+
+STUDY 1: Threshold Identification
+----------------------------------------
+Piecewise regression optimal breakpoint: NTLX = 63.9
+  Below breakpoint: slope=-0.0003, R=-0.056, p=0.4324
+  Above breakpoint: slope=-0.0232, R=-0.832, p=0.0000
+  Slope change: -0.0230
+One-way ANOVA: F(4,245) = 52.10, p < .001
+
+Post-hoc pairwise (Bonferroni-corrected):
+  High vs Low: t=-2.16, p_adj=0.3320 ns, d=0.436
+  High vs Low-Moderate: t=-1.98, p_adj=0.5094 ns, d=0.399
+  High vs Moderate: t=-2.00, p_adj=0.4778 ns, d=0.405
+  High vs Very High: t=7.29, p_adj=0.0000 ***, d=-1.473
+  Low vs Low-Moderate: t=0.19, p_adj=1.0000 ns, d=-0.039
+  Low vs Moderate: t=0.13, p_adj=1.0000 ns, d=-0.025
+  Low vs Very High: t=9.32, p_adj=0.0000 ***, d=-1.883
+  Low-Moderate vs Moderate: t=-0.06, p_adj=1.0000 ns, d=0.012
+  Low-Moderate vs Very High: t=9.15, p_adj=0.0000 ***, d=-1.850
+  Moderate vs Very High: t=9.15, p_adj=0.0000 ***, d=-1.848
+
+STUDY 2: Failure Mode Characterization
+----------------------------------------
+Error Type effect (High load): t=7.71, p=0.000000, d=2.502
+Load effect: t=3.30, p=0.002087, d=0.528
+
+STUDY 3: Intervention & Recovery
+  Microbreak vs Control: t=5.53, p=0.000001 ***, d=1.453
+  Interface Simplification vs Control: t=4.97, p=0.000006 ***, d=1.305
+  Cognitive Aids vs Control: t=6.80, p=0.000000 ***, d=1.785

@@ -1,0 +1,52 @@
+======================================================================
+STATISTICAL ANALYSIS REPORT: HIM-14 Cognitive Load Thresholds
+Generated: 2026-05-10 04:29:52
+======================================================================
+
+
+### STUDY 1: Threshold Identification ###
+
+Piecewise Regression Analysis
+----------------------------------------
+Optimal breakpoint: NTLX = 63.9
+  Regime I (below breakpoint): slope=-0.0003, R=-0.056, p=0.4324
+  Regime II-III (above breakpoint): slope=-0.0232, R=-0.832, p=0.0000
+  Slope change at breakpoint: -0.0230
+
+One-Way ANOVA: Detection Rate by Condition
+----------------------------------------
+F(4, 245) = 52.098, p < .001
+
+Post-hoc pairwise comparisons (Bonferroni):
+  Low vs Low-Moderate: t=0.19, p_adj=1.0000 ns, Cohen's d=-0.039
+  Low vs Moderate: t=0.13, p_adj=1.0000 ns, Cohen's d=-0.025
+  Low vs High: t=2.16, p_adj=0.3320 ns, Cohen's d=-0.436
+  Low vs Very High: t=9.32, p_adj=0.0000 ***, Cohen's d=-1.883
+  Low-Moderate vs Moderate: t=-0.06, p_adj=1.0000 ns, Cohen's d=0.012
+  Low-Moderate vs High: t=1.98, p_adj=0.5094 ns, Cohen's d=-0.399
+  Low-Moderate vs Very High: t=9.15, p_adj=0.0000 ***, Cohen's d=-1.850
+  Moderate vs High: t=2.00, p_adj=0.4778 ns, Cohen's d=-0.405
+  Moderate vs Very High: t=9.15, p_adj=0.0000 ***, Cohen's d=-1.848
+  High vs Very High: t=7.29, p_adj=0.0000 ***, Cohen's d=-1.473
+
+
+### STUDY 2: Failure Mode Characterization ###
+
+2 × 2 Mixed ANOVA: Error Type (between) × Load Level (within)
+----------------------------------------
+Error Type effect (at High load): t=7.71, p=0.000000, Cohen's d=2.502
+Load Level effect: t=3.30, p=0.002087, Cohen's d=0.528
+Interaction: Error Type × Load Level — significant differential decline
+
+
+### STUDY 3: Intervention and Recovery ###
+
+ANCOVA: Post-intervention Detection Rate (controlling for Pre-intervention)
+----------------------------------------
+  Microbreak               : mean improvement = 0.0867 (95% CI: [0.0643, 0.1092])
+  Interface Simplification : mean improvement = 0.0695 (95% CI: [0.0517, 0.0873])
+  Cognitive Aids           : mean improvement = 0.0835 (95% CI: [0.0680, 0.0989])
+  Control                  : mean improvement = 0.0137 (95% CI: [0.0007, 0.0266])
+  Microbreak vs Control: t=5.53, p=0.000001 ***, Cohen's d=1.453
+  Interface Simplification vs Control: t=4.97, p=0.000006 ***, Cohen's d=1.305
+  Cognitive Aids vs Control: t=6.80, p=0.000000 ***, Cohen's d=1.785
